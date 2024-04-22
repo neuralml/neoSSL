@@ -1,0 +1,11 @@
+python -m experiment.fig4_occlusion --epoch 2000 --ablate_l23_l5 --moving
+python -m experiment.fig4_occlusion --epoch 2000 --ablate_l23_l5
+
+python -m experiment.fig4_occlusion --epoch 2000 --ablate_delay --moving
+python -m experiment.fig4_occlusion --epoch 2000 --ablate_delay
+
+
+python -m experiment.fig4_occlusion --epoch 2000 --moving
+python -m experiment.fig4_occlusion --epoch 2000
+
+

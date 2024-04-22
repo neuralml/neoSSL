@@ -1,0 +1,6 @@
+python -m experiment.fig3 --epoch 1500 --ablate_l23_l5 --hidden_dim 64 --latent_dim 64
+python -m experiment.fig3 --epoch 1500 --ablate_delay --hidden_dim 64 --latent_dim 64
+python -m experiment.fig3 --epoch 1500 --ablate_topdown --hidden_dim 64 --latent_dim 64
+python -m experiment.fig3 --epoch 1500 --ablate_topdown --hidden_dim 64 --latent_dim 64 --topdown_mode deterministic --sub_dir deterministic
+python -m experiment.fig3 --epoch 1500 --ablate_thal_l5 --hidden_dim 64 --latent_dim 64
+python -m experiment.fig3 --epoch 1500 --hidden_dim 64 --latent_dim 64

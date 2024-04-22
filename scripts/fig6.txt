@@ -1,0 +1,10 @@
+python -m experiment.fig6 --epoch 1000 --l23_l5_fa --fa_sparsity 0.0
+python -m experiment.fig6 --epoch 1000 --l23_l5_fa --fa_sparsity 0.2
+python -m experiment.fig6 --epoch 1000 --l23_l5_fa --fa_sparsity 0.4
+python -m experiment.fig6 --epoch 1000 --l23_l5_fa --fa_sparsity 0.6
+python -m experiment.fig6 --epoch 1000 --l23_l5_fa --fa_sparsity 0.8
+python -m experiment.fig6 --epoch 1000 --l23_l5_fa --fa_sparsity 0.95
+python -m experiment.fig6 --epoch 1000 --l23_l5_fa --fa_sparsity 1.0
+
+# BP
+python -m experiment.fig6 --epoch 1000 --fa_sparsity 0.0

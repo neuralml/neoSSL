@@ -1,0 +1,35 @@
+python -m experiment.fig4_noise --epoch 200 --added_noise 0.0
+python -m experiment.fig4_noise --epoch 200 --added_noise 0.2
+python -m experiment.fig4_noise --epoch 200 --added_noise 0.4 
+python -m experiment.fig4_noise --epoch 200 --added_noise 0.6
+python -m experiment.fig4_noise --epoch 200 --added_noise 0.8 
+python -m experiment.fig4_noise --epoch 200 --added_noise 1.0 
+
+
+python -m experiment.fig4_noise --epoch 200 --ablate_l23_l5 --added_noise 0.0 
+python -m experiment.fig4_noise --epoch 200 --ablate_l23_l5 --added_noise 0.2 
+python -m experiment.fig4_noise --epoch 200 --ablate_l23_l5 --added_noise 0.4 
+python -m experiment.fig4_noise --epoch 200 --ablate_l23_l5 --added_noise 0.6 
+python -m experiment.fig4_noise --epoch 200 --ablate_l23_l5 --added_noise 0.8 
+python -m experiment.fig4_noise --epoch 200 --ablate_l23_l5 --added_noise 1.0
+
+
+
+
+python -m experiment.fig4_noise --epoch 200 --added_noise 0.0 --denoising_ae 
+python -m experiment.fig4_noise --epoch 200 --added_noise 0.2 --denoising_ae  
+python -m experiment.fig4_noise --epoch 200 --added_noise 0.4 --denoising_ae  
+python -m experiment.fig4_noise --epoch 200 --added_noise 0.6 --denoising_ae  
+python -m experiment.fig4_noise --epoch 200 --added_noise 0.8 --denoising_ae  
+python -m experiment.fig4_noise --epoch 200 --added_noise 1.0 --denoising_ae  
+
+# ablate delay
+python -m experiment.fig4_noise --epoch 200 --added_noise 0.0 --ablate_delay 
+python -m experiment.fig4_noise --epoch 200 --added_noise 0.2 --ablate_delay 
+python -m experiment.fig4_noise --epoch 200 --added_noise 0.4 --ablate_delay 
+python -m experiment.fig4_noise --epoch 200 --added_noise 0.6 --ablate_delay 
+python -m experiment.fig4_noise --epoch 200 --added_noise 0.8 --ablate_delay
+python -m experiment.fig4_noise --epoch 200 --added_noise 1.0 --ablate_delay 
+
+
+

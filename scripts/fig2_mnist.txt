@@ -1,0 +1,1 @@
+python -m experiment.fig2_mnist --epoch 1200

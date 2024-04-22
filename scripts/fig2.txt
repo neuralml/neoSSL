@@ -1,0 +1,2 @@
+python -m experiment.fig2 --epoch 1500
+python -m experiment.fig2 --epoch 2500 --hidden_dim 2048 --freeze_thal_l4

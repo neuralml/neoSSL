@@ -1,0 +1,40 @@
+python -m experiment.fig5 --epoch 1200 --hidden_dim 4 --latent_dim 4
+python -m experiment.fig5 --epoch 1200 --hidden_dim 8 --latent_dim 8
+python -m experiment.fig5 --epoch 1200 --hidden_dim 16 --latent_dim 16
+python -m experiment.fig5 --epoch 1200 --hidden_dim 32 --latent_dim 32
+python -m experiment.fig5 --epoch 1200 --hidden_dim 64 --latent_dim 64
+python -m experiment.fig5 --epoch 1200 --hidden_dim 128 --latent_dim 128
+
+
+
+## units vs prediction accuracy
+
+python -m experiment.fig5 --hidden_dim 8 --latent_dim 4 --epoch 1200
+python -m experiment.fig5 --hidden_dim 8 --latent_dim 16 --epoch 1200
+python -m experiment.fig5 --hidden_dim 8 --latent_dim 32 --epoch 1200
+python -m experiment.fig5 --hidden_dim 8 --latent_dim 64 --epoch 1200
+
+
+python -m experiment.fig5 --hidden_dim 16 --latent_dim 4 --epoch 1200
+python -m experiment.fig5 --hidden_dim 16 --latent_dim 8 --epoch 1200
+python -m experiment.fig5 --hidden_dim 16 --latent_dim 32 --epoch 1200
+python -m experiment.fig5 --hidden_dim 16 --latent_dim 64 --epoch 1200
+
+python -m experiment.fig5 --hidden_dim 32 --latent_dim 4 --epoch 1200
+python -m experiment.fig5 --hidden_dim 32 --latent_dim 8 --epoch 1200
+python -m experiment.fig5 --hidden_dim 32 --latent_dim 16 --epoch 1200
+python -m experiment.fig5 --hidden_dim 32 --latent_dim 64 --epoch 1200
+
+
+
+python -m experiment.fig5 --hidden_dim 64 --latent_dim 4 --epoch 1200
+python -m experiment.fig5 --hidden_dim 64 --latent_dim 8 --epoch 1200
+python -m experiment.fig5 --hidden_dim 64 --latent_dim 16 --epoch 1200
+python -m experiment.fig5 --hidden_dim 64 --latent_dim 32 --epoch 1200
+
+
+
+python -m experiment.fig5 --hidden_dim 4 --latent_dim 8 --epoch 1200
+python -m experiment.fig5 --hidden_dim 4 --latent_dim 16 --epoch 1200
+python -m experiment.fig5 --hidden_dim 4 --latent_dim 32 --epoch 1200
+python -m experiment.fig5 --hidden_dim 4 --latent_dim 64 --epoch 1200

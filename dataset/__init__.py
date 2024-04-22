@@ -1,0 +1,3 @@
+from dataset.gabor import GaborDatasetOrientation
+from dataset.visual_flow import SyntheticVisualFlowDataset
+from dataset.mnist import Digit
