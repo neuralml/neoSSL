@@ -1,6 +1,6 @@
 ## A theory of temporal self-supervised learning in neocortical layers
 
-This repository contains the code to run the experiments for our self-supervised model of the neocortical microcircuit.
+This repository contains the code to run the experiments for the paper: A theory of temporal self-supervised learning in neocortical layers.
 
 ## Dependencies
 
